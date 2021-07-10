@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    font-family:  'Rubik', sans-serif;
+}
+
+header img{
+    margin: 0 auto;
+    padding: 30px;
+    width: 300px;
+}
+
+header{
+    background-image: url(/imagenes/background01.jpg);
+    display: flex;
+    justify-content: space-between;
+    border-bottom:1px solid gray ;
+}
+
+.menu img{
+    width: 100%;
+    position: absolute;
+}
+
+
+.lista{
+    list-style: none;
+    display: flex;
+    /* float: right; */
+    /* margin: 55px 150px; */
+}
+
+.lista a{
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 700;
+    position: relative;
+    color: white;
+    margin: 10px 68px;
+    padding: 15px;
+}
+
+.lista a:hover{
+    color: #963f43;
+}
+
+.centrado{
+    width: 1080px;
+    max-width: 1060px;
+    margin: 0 auto;
+}
+
+.intro h1{
+    color: #2C0F11;
+    text-align: center;
+    margin: 100px 100px 30px 100px;
+}
+
+.intro p{
+    line-height: 30px;
+    font-weight: 500;
+    font-size: 20px;
+    text-align: center;
+    margin-bottom: 35px;
+}
+
+.imagen{
+    width: 100%;
+}
+
+.mySlides{
+    margin: 0 auto;
+}
+
+.container-carousel{
+    position: absolute;
+    width: 70%;
+}
+
+.columna{
+    position: relative;
+}
+
+.lista01{
+    background: rgb(241, 241, 241);
+    list-style: none;
+    float: right;
+    height: 585px;
+    padding: 15px;
+}
+
+.lista01 li{
+    color: #b42d34;
+    font-weight: 700;
+    margin-bottom: 250px;
+    font-size: 25px;
+}
+
