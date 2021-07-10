@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,7 +11,9 @@
     <link rel="stylesheet" href="styles.css">
     <title>Maderera Tamar</title>
 </head>
+
 <body>
+    <p class="telefono">Tel:114232-4556 Canning</p>
     <header>
         <img src="/imagenes/logo (1).png">
     </header>
@@ -23,36 +26,37 @@
             <a href="">Contacto</a>
         </div>
     </div>
-    <div class="centrado"> 
+    <div class="centrado">
         <div class="intro">
             <h1>Bienvenido a TAMAR</h1>
-            <p>Con más de 30 años de experiencia en madera, proporcionamos recursos para la obra es muy buena calidad y el mercado de construcción en general. ¿Madera? ¡No busques más!</p>
+            <p>Con más de 30 años de experiencia en madera, proporcionamos recursos para la obra en muy buena calidad y
+                el mercado de construcción en general. ¿Madera? ¡No busques más!</p>
         </div>
         <section class="carousel">
             <div class="container-carousel">
-                        <div class="mySlides fade center">
-                            <img class="imagen" src="/imagenes/image1.png">
-                        </div>
-                        <div class="mySlides fade center">
-                            <img class="imagen" src="/imagenes/image2.png">
-                        </div>
-                        <div class="mySlides fade center">
-                            <img class="imagen" src="/imagenes/image3.png">
-                        </div>
+                <div class="mySlides fade center">
+                    <img class="imagen" src="/imagenes/image1.png">
+                </div>
+                <div class="mySlides fade center">
+                    <img class="imagen" src="/imagenes/image2.png">
+                </div>
+                <div class="mySlides fade center">
+                    <img class="imagen" src="/imagenes/image3.png">
+                </div>
             </div>
-                    <div class="columna">
-                        <ul class="lista01">
-                            <li>Atención personalizada</li>
-                            <li>Asesoramiento constructivo</li>
-                            <li>Materiales de 1° Calidad</li>
-                        </ul>
-                    </div>
+            <div class="columna">
+                <ul class="lista01">
+                    <li>Atención personalizada</li>
+                    <li>Asesoramiento constructivo</li>
+                    <li>Materiales de 1° Calidad</li>
+                </ul>
+            </div>
         </section>
     </div>
     <script>
-    var slideIndex = 0;
+        var slideIndex = 0;
         showSlides();
-        
+
         function showSlides() {
             let i;
             let slides = document.getElementsByClassName("mySlides");
@@ -64,11 +68,12 @@
             slides[slideIndex - 1].style.display = "block";
             setTimeout(showSlides, 5000); // Change image every 2 seconds
         }
-        
+
         document.addEventListener('DOMContentLoaded', function () {
             let element = document.querySelectorAll('.tooltipped');
             let asd = M.Tooltip.init(element,);
         });
-</script>
+    </script>
 </body>
+
 </html>
