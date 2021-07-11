@@ -26,6 +26,19 @@
             <a href="">Contacto</a>
         </div>
     </div>
+    <div class="respmenu">
+        <input type="checkbox">
+        <i class="fas fa-bars"></i>
+        <i class="fas fa-times"></i>
+        <nav>
+          <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">Nosotros</a></li>
+            <li><a href="#">Productos</a></li>
+            <li><a href="#">Contacto</a></li
+          </ul>
+        </nav>
+      </div>
     <div class="centrado">
         <div class="intro">
             <h1>Bienvenido a TAMAR</h1>
@@ -109,7 +122,7 @@
             slideIndex++;
             if (slideIndex > slides.length) { slideIndex = 1 }
             slides[slideIndex - 1].style.display = "block";
-            setTimeout(showSlides, 5000); // Change image every 2 seconds
+            setTimeout(showSlides, 3000); // Change image every 2 seconds
         }
 
         document.addEventListener('DOMContentLoaded', function () {
