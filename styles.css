@@ -11,7 +11,7 @@ header img{
 }
 
 header{
-    background-image: url(/imagenes/background01.jpg);
+    background-image: url(imagenes/background01.jpg);
     display: flex;
     justify-content: space-between;
     border-bottom:1px solid gray;
@@ -422,16 +422,15 @@ footer{
 }
 
 .container-minimalist{
-  padding: 30px;
+  padding: 50px;
   display: flex;
   justify-content: space-between;
   background: #1F0A0C;
   text-align: center;
-  /* align-items: center; */
 }
 
   .column1{
-    margin-top:15px;
+    margin-top: 20px;
     color: white;
     font-size: 8px;
     font-weight: 700;
@@ -449,7 +448,7 @@ footer{
   }
 
   .column3 i{
-    font-size: 15px;
+    font-size: 20px;
     color: white;
     padding: 5px;
   }
