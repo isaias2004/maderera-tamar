@@ -360,10 +360,10 @@ footer{
   }
   
   .telefono{
+    padding: 5px;
     position: relative;
     width: 100%;
-    max-width: 249px;
-    text-align: left;
+    text-align: center;
   }
 
   .centrado{
