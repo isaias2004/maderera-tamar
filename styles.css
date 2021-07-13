@@ -296,7 +296,7 @@ footer{
   }
   
   header{
-    background-image: url(/imagenes/background01.jpg);
+    background-image: url(imagenes/background01.jpg);
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
