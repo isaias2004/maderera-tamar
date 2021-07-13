@@ -280,8 +280,8 @@ footer{
 
   .respmenu{
     margin: 0 auto;
-    width: 360px;
-    max-width: 400px;
+    /* width: 360px;
+    max-width: 400px; */
     display: block;
   }
 
@@ -290,7 +290,7 @@ footer{
     }
 
   header img{
-  margin: 0 auto;
+  margin: 25px auto 0pc auto;
   padding: 30px;
   width: 250px;
   }
@@ -300,8 +300,8 @@ footer{
     margin: 0 auto;
     display: flex;
     justify-content: space-between;
-    width: 360px;
-    max-width: 400px;
+    /* width: 360px;
+    max-width: 400px; */
   }
 
   .respmenu a { 
@@ -361,15 +361,14 @@ footer{
   
   .telefono{
     padding: 5px;
-    position: relative;
-    width: 100%;
+    position: fixed;
     text-align: center;
   }
 
   .centrado{
     background: #fafafa;
-    width: 360px;
-    max-width: 360px;
+    width: 100%;
+    max-width: 100%;
     margin: 0 auto;
   }
 
@@ -390,9 +389,14 @@ footer{
 
 
   .lista01{
-    width: 90%;
+    float: none;
+    width: 80%;
     margin: 0 auto;
     margin-bottom: 60px;
+  }
+
+  .lista01 li{
+    text-align: center;
   }
 
   .centrado h2{
